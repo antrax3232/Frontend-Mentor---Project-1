@@ -603,7 +603,7 @@ main {
 @media (max-width: 768px) {
   .footer {
     height: 100vh;
-    padding-top: 80rem;
+    padding-top: 90rem;
   }
   .footer-links {
     padding: 2rem 0;
