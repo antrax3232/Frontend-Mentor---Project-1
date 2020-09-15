@@ -39,7 +39,7 @@ main {
 }
 
 .header {
-  height: 90px;
+  padding-top: 2rem;
   background: transparent;
 }
 
@@ -108,7 +108,6 @@ main {
 
 .home {
   padding: 0 1rem;
-  margin: 1rem auto 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,7 +117,7 @@ main {
 }
 
 .home__img {
-  width: 40%;
+  max-width: 600px;
   margin-left: 3rem;
 }
 
@@ -143,20 +142,20 @@ main {
 }
 
 @media (max-width: 1000px) {
+  .home {
+    margin-top: 10rem;
+  }
   .home__heading {
-    width: 90%;
+    width: 100%;
   }
   .home__subheading {
-    width: 90%;
+    width: 100%;
   }
 }
 
 @media (max-width: 768px) {
-  .home__img {
-    width: 60%;
-  }
   .home__heading {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .home__subheading {
     font-size: 1.4rem;
