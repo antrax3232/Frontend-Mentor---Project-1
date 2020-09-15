@@ -71,7 +71,7 @@ main {
 @media (max-width: 450px) {
   .nav__item {
     font-size: 1.6rem;
-    margin-left: .5rem;
+    margin-left: 1rem;
   }
 }
 
