@@ -70,8 +70,8 @@ main {
 
 @media (max-width: 450px) {
   .nav__item {
-    font-size: 1.4rem;
-    margin-left: 1rem;
+    font-size: 1.6rem;
+    margin-left: .5rem;
   }
 }
 
