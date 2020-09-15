@@ -68,6 +68,13 @@ main {
   margin-left: 3rem;
 }
 
+@media (max-width: 450px) {
+  .nav__item {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+  }
+}
+
 .nav__link {
   color: white;
 }
