@@ -97,6 +97,12 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background-image: linear-gradient(90deg, rgba(101, 226, 217, 0.446) 0%, rgba(51, 158, 204, 0.33) 74%);
+  color: #1c2431;
 }
 
 .section-1, .feature {
@@ -164,6 +170,12 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background-image: linear-gradient(90deg, rgba(101, 226, 217, 0.446) 0%, rgba(51, 158, 204, 0.33) 74%);
+  color: #1c2431;
 }
 
 .section-1, .feature {
@@ -184,6 +196,12 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background-image: linear-gradient(90deg, rgba(101, 226, 217, 0.446) 0%, rgba(51, 158, 204, 0.33) 74%);
+  color: #1c2431;
 }
 
 .section-1, .feature {
@@ -192,13 +210,17 @@ main {
   justify-content: center;
 }
 
+.section-1 {
+  margin-top: 15rem;
+}
+
 .features {
   margin-top: 15rem;
   padding: 0 1rem;
   display: grid;
   grid-template-columns: repeat(2, 350px);
   grid-template-rows: repeat(2, auto);
-  gap: 15rem;
+  gap: 20rem;
 }
 
 @media (max-width: 900px) {
@@ -250,6 +272,12 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background-image: linear-gradient(90deg, rgba(101, 226, 217, 0.446) 0%, rgba(51, 158, 204, 0.33) 74%);
+  color: #1c2431;
 }
 
 .section-1, .feature {
@@ -259,7 +287,7 @@ main {
 }
 
 .section-2 {
-  margin-top: 10rem;
+  margin-top: 20rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -267,7 +295,7 @@ main {
 }
 
 .section-2 .content {
-  width: 30%;
+  width: 40%;
   color: white;
 }
 
@@ -339,6 +367,12 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background-image: linear-gradient(90deg, rgba(101, 226, 217, 0.446) 0%, rgba(51, 158, 204, 0.33) 74%);
+  color: #1c2431;
 }
 
 .section-1, .feature {
@@ -348,7 +382,7 @@ main {
 }
 
 .testimonials {
-  margin: 20rem auto;
+  margin: 30rem auto;
   width: 80%;
   display: flex;
   gap: 5rem;
@@ -424,6 +458,12 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background-image: linear-gradient(90deg, rgba(101, 226, 217, 0.446) 0%, rgba(51, 158, 204, 0.33) 74%);
+  color: #1c2431;
 }
 
 .section-1, .feature {
@@ -514,6 +554,12 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background-image: linear-gradient(90deg, rgba(101, 226, 217, 0.446) 0%, rgba(51, 158, 204, 0.33) 74%);
+  color: #1c2431;
 }
 
 .section-1, .feature {
@@ -547,7 +593,7 @@ main {
   align-items: center;
   justify-content: space-between;
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .footer-links a {
