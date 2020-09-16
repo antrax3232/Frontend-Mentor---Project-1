@@ -211,7 +211,7 @@ main {
 }
 
 .section-1 {
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
 
 .features {
@@ -220,7 +220,7 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 350px);
   grid-template-rows: repeat(2, auto);
-  gap: 20rem;
+  gap: 10rem 30rem;
 }
 
 @media (max-width: 900px) {
