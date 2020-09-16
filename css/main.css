@@ -639,6 +639,12 @@ main {
 .footer-links i {
   font-size: 3rem;
   padding-right: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-links i:hover {
+  color: #65e2d9;
 }
 
 .footer-links .contact a {
