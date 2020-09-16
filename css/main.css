@@ -389,16 +389,16 @@ main {
 
 .testimonials {
   margin: 30rem auto;
-  width: 80%;
   display: flex;
   gap: 5rem;
   position: relative;
   z-index: 100;
+  border: 2px solid red;
 }
 
 .testimonial {
   margin: 0 auto;
-  padding: 2rem 3rem;
+  padding: 2rem;
   background-color: #202a3c;
   border-radius: 5px;
   max-width: 400px;
