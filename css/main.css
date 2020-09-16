@@ -13,6 +13,12 @@ html {
   font-size: 62.5%;
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
@@ -237,7 +243,7 @@ main {
 }
 
 .feature__img {
-  width: 80px;
+  width: 100px;
 }
 
 .feature__heading {
@@ -300,7 +306,7 @@ main {
 }
 
 .section-2 .content__heading {
-  font-size: 2rem;
+  font-size: 2.6rem;
   line-height: 1.2;
 }
 
