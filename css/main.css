@@ -389,6 +389,7 @@ main {
 
 .testimonials {
   margin: 30rem auto;
+  padding: 0 1rem;
   display: flex;
   gap: 5rem;
   position: relative;
