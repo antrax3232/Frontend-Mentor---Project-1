@@ -76,6 +76,29 @@ main {
 
 .nav__link {
   color: white;
+  position: relative;
+  transition: color .3s;
+}
+
+.nav__link:hover {
+  color: #9d9d9d;
+}
+
+.nav__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 3px;
+  width: 100%;
+  background-color: #65e2d9;
+  transform-origin: center;
+  transform: scale(0);
+  transition: transform .3s;
+}
+
+.nav__link:hover::after {
+  transform: scale(1);
 }
 
 @media (max-width: 768px) {
